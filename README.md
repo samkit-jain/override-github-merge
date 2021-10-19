@@ -1,11 +1,11 @@
 # Override GitHub Merge
 
-This repository demonstrates the use of a GitHub Actions workflow to override the merge options as provided by GitHub.
+This repository demonstrates the use of a GitHub Actions workflow to override the merge options as provided by GitHub. Refer to the Medium article https://medium.com/@_samkitjain/override-githubs-merge-strategies-cea7eb789e23 to know more.
 
 ## Prerequisites
 
-1. Create a personal access token. If running within a private repository, provide it the necessary read-write access.
-2. Create a repository secret by the name `GH_TOKEN` and add the PAT created above as the value.
+1. Create a personal access token with the `public_repo` and `repo:status` permissions.
+2. Create a repository secret by the name `GH_TOKEN` and add the token created above as the value.
 
 ## How to use?
 
